@@ -5,7 +5,7 @@
 // let students: string[] = ["josue","murangwa","Chemea","Fabrice"];
 // let studentsAge: number[] = [22,21,18,20];
 // let studentsAds: any[] = ["josue",22,true];
-const conce = (a: string, b: string) => {
+const conce = (a: string, b: string): string => {
     return a + b;
 };
 console.log(conce("heloo ", "Naomi"));
